@@ -17,6 +17,5 @@
 
 - (instancetype)initWithWeather:(NSString*)weatherDescription andCurrentTime:(NSDate*)currentTime andTemperature:(NSNumber*)currentTemperature andPrecipitation:(NSNumber*)chanceOfPrecipitation;
 
-//
 
 @end
