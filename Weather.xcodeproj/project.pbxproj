@@ -34,6 +34,7 @@
 		AF207A5F19F472D300FD95BF /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A5219F472D300FD95BF /* wind.png */; };
 		B5B08B511B0A5FDF007BC29B /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B08B501B0A5FDF007BC29B /* City.m */; };
 		B5B08B541B0A7C75007BC29B /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B08B531B0A7C75007BC29B /* CityViewController.m */; };
+		B5B08B571B0A96A3007BC29B /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B08B561B0A96A3007BC29B /* DetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		B5B08B501B0A5FDF007BC29B /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 		B5B08B521B0A7C75007BC29B /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
 		B5B08B531B0A7C75007BC29B /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		B5B08B551B0A96A3007BC29B /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		B5B08B561B0A96A3007BC29B /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				B5B08B501B0A5FDF007BC29B /* City.m */,
 				60ADD9591989CFDB0086A6BC /* LHWAppDelegate.h */,
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
+				B5B08B551B0A96A3007BC29B /* DetailedViewController.h */,
+				B5B08B561B0A96A3007BC29B /* DetailedViewController.m */,
 				B5B08B521B0A7C75007BC29B /* CityViewController.h */,
 				B5B08B531B0A7C75007BC29B /* CityViewController.m */,
 				AF207A4519F472D300FD95BF /* images */,
@@ -314,6 +319,7 @@
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,
 				B5B08B511B0A5FDF007BC29B /* City.m in Sources */,
 				B5B08B541B0A7C75007BC29B /* CityViewController.m in Sources */,
+				B5B08B571B0A96A3007BC29B /* DetailedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

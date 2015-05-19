@@ -11,7 +11,9 @@
 @implementation City
 
 
-- (instancetype)initWithWeather:(NSString*)weatherDescription andCurrentTime:(NSDate*)currentTime andTemperature:(NSNumber*)currentTemperature andPrecipitation:(NSNumber*)chanceOfPrecipitation
+// below you initialize the properties in your header file
+
+- (instancetype)initWithName:(NSString*)cityName andWeather:(NSString*)weatherDescription andCurrentTime:(NSDate*)currentTime andTemperature:(NSNumber*)currentTemperature andPrecipitation:(NSNumber*)chanceOfPrecipitation
 {
     self = [super init];
     if (self) {
@@ -19,6 +21,7 @@
         self.currentTime = currentTime;
         self.currentTemperature = currentTemperature;
         self.chanceOfPrecipitation = chanceOfPrecipitation;
+        self.cityName = cityName;
     }
     return self;
 }

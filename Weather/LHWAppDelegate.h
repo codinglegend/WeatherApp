@@ -11,7 +11,7 @@
 @interface LHWAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) UIViewController *tabBarController;
+@property (strong, nonatomic) UITabBarController *tabBarController;
 
 
 @end

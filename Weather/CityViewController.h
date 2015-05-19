@@ -15,4 +15,7 @@
 
 - (instancetype)initWithCity:(City*)cityObject;
 
+- (void)showWeatherDetails;
+
 @end
+

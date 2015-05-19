@@ -14,8 +14,9 @@
 @property (weak, nonatomic) NSDate* currentTime;
 @property (weak, nonatomic) NSNumber* currentTemperature;
 @property (weak, nonatomic) NSNumber* chanceOfPrecipitation;
+@property (weak, nonatomic) NSString* cityName;
 
-- (instancetype)initWithWeather:(NSString*)weatherDescription andCurrentTime:(NSDate*)currentTime andTemperature:(NSNumber*)currentTemperature andPrecipitation:(NSNumber*)chanceOfPrecipitation;
+- (instancetype)initWithName:(NSString*)cityName andWeather:(NSString*)weatherDescription andCurrentTime:(NSDate*)currentTime andTemperature:(NSNumber*)currentTemperature andPrecipitation:(NSNumber*)chanceOfPrecipitation;
 
 
 @end
